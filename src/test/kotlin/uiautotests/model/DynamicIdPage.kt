@@ -7,7 +7,6 @@ import org.openqa.selenium.By
 
 class DynamicIdPage {
     private val dynamicIdButton = By.xpath(".//button[text()='Button with Dynamic ID']")
-    //private val dynamicIdInDynamicIdButton = By.xpath()
 
     fun clickDynamicIdButton() {
         Selenide.element(dynamicIdButton).should(visible).click()
