@@ -12,7 +12,6 @@ repositories {
 }
 
 dependencies {
-    implementation("org.slf4j:slf4j-simple:1.7.36")
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
@@ -32,9 +31,3 @@ tasks.test {
 kotlin {
     jvmToolchain(11)
 }
-
-/*
-application {
-    mainClass.set("MainKt")
-}
- */
