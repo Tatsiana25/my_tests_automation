@@ -6,7 +6,7 @@ import uiautotests.config.BaseTest
 import uiautotests.model.*
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-@DisplayName("Тест с атрибутами класса")
+@DisplayName("Тест с атрибутами класса (у класса в названии пробелы)")
 class ClassAttributeTest: BaseTest()  {
 
     private val mainPageForUiTests = MainPageForUiTests()
