@@ -48,11 +48,7 @@ open class BaseTest {
         //prefs["profile.default_content_setting_values.images"] = 2
         options.setExperimentalOption("prefs", prefs)
 
-        //options.addArguments("--disable-extensions")
-        //options.addArguments("--disable-popup-blocking")
         options.addArguments("--incognito")
-        //options.addArguments("--no-sandbox")
-        //options.addArguments("--disable-gpu")
         options.addArguments("--ignore-certificate-errors")
 
         // Установка опций для WebDriver

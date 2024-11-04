@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClassAttributePage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/classatrribute/ClassAttributeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/LoadDelayPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/loaddelay/LoadDelayTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/DynamicIdPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/DynamicIdPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/config/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/config/BaseTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.ClassAttributeTest.clickBluePrimaryButtonAndAcceptAlertIsPossible">
+  <component name="RunManager" selected="Gradle.LoadDelayTest.clickAppearingAfterDelayButton">
     <configuration name="ClassAttributeTest.clickBluePrimaryButtonAndAcceptAlertIsPossible" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -151,7 +151,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="OpenTheSearchPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoadDelayTest.clickAppearingAfterDelayButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +164,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uiautotests.google.page.OpenTheSearchPageTest&quot;" />
+            <option value="&quot;uiautotests.uitestingplayground.loaddelay.LoadDelayTest.clickAppearingAfterDelayButton&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoadDelayTest.clickAppearingAfterDelayButton" />
         <item itemvalue="Gradle.ClassAttributeTest.clickBluePrimaryButtonAndAcceptAlertIsPossible" />
         <item itemvalue="Gradle.DynamicIdTest.clickOnDynamicIdButtonIsPossible" />
         <item itemvalue="Gradle.DynamicIdTest" />
         <item itemvalue="Gradle.OpenTheSearchPageTest.startGooglePageIsOpened" />
-        <item itemvalue="Gradle.OpenTheSearchPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,12 +232,28 @@
       <option name="project" value="LOCAL" />
       <updated>1730206098640</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add ClassAttributeTest">
+      <created>1730403578918</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730403578919</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Edit ClassAttributeTest">
+      <created>1730404175725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730404175725</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Google start page test" />
     <MESSAGE value="Add readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add readme" />
+    <MESSAGE value="Add ClassAttributeTest" />
+    <MESSAGE value="Edit ClassAttributeTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit ClassAttributeTest" />
   </component>
 </project>
