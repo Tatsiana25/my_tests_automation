@@ -3,6 +3,8 @@
 
 Для запуска тестов ChromeDriver скачивать не нужно, т.к. настроен WebDriverManager.
 
+Задачи по ui автотестам взяты с ресурса http://uitestingplayground.com/
+
 ### Структура
 - Тесты (ui) находятся в src/kotlin/uiautotests
 - Описание страниц для этих тестов находится в src/kotlin/uiautotests/model
