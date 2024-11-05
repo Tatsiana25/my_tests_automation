@@ -25,7 +25,7 @@ class LoadDelayTest: BaseTest() {
     @Test
     @DisplayName("Ожидание загрузки кнопки для клика осуществляется")
     fun clickAppearingAfterDelayButton() {
-        mainPageForUiTests.goToDynamicIdPage()
+        mainPageForUiTests.goToLoadDelayPage()
         /* Элемент ожидается из-за установки глобального таймаута
            Configuration.timeout = 20000
            в классе BaseTest */
