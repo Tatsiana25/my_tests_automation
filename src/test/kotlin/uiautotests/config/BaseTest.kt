@@ -24,7 +24,9 @@ open class BaseTest {
             DriverManager.println("Using environment baseUrl=${Configuration.baseUrl}")
         }
         Configuration.webdriverLogsEnabled = true
-        Configuration.timeout = 20000
+
+        //Настройки времени ожидания элемента по умолчанию повышены с 4 до 6 сек. для повышения стабильности работы
+        Configuration.timeout = 6000
 
         Configuration.driverManagerEnabled = true
 
@@ -65,4 +67,4 @@ open class BaseTest {
         closeWebDriver()
     }
 
-    }
+}
