@@ -1,4 +1,4 @@
-package uiautotests.google.page
+package uiautotests.googlepage
 
 import com.codeborne.selenide.Selenide
 import org.junit.jupiter.api.*

@@ -1,7 +1,5 @@
 package uiautotests.model
 
-import com.codeborne.selenide.Condition
-import com.codeborne.selenide.Condition.exist
 import com.codeborne.selenide.Condition.visible
 import org.openqa.selenium.By
 import com.codeborne.selenide.Selenide.element

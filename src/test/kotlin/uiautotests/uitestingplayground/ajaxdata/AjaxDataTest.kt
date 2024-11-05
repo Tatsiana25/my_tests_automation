@@ -27,9 +27,6 @@ class AjaxDataTest: BaseTest() {
     fun textAppearingAfterTriggeringAjaxRequestButtonClicking() {
         mainPageForUiTests.goToAjaxDataPage()
         ajaxDataPage.clickTriggeringAjaxRequestButton()
-        /* Поле с текстом ожидается из-за установки глобального таймаута
-           Configuration.timeout = 20000
-           в классе BaseTest */
         ajaxDataPage.checkLoadedDataInTheField("Data loaded with AJAX get request.")
     }
 }
