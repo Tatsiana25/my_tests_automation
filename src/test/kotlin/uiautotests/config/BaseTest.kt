@@ -63,7 +63,7 @@ open class BaseTest {
     }
 
     @AfterEach
-    fun afterEach() {
+    open fun afterEach() {
         closeWebDriver()
     }
 

@@ -20,6 +20,7 @@ class DynamicIdTest: BaseTest() {
 
     @BeforeEach
     override fun beforeEach() {
+        super.beforeEach()
         Selenide.open("http://uitestingplayground.com/")
     }
 
