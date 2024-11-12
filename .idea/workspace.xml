@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClickPage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/click/ClickTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/config/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/config/BaseTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/ajaxdata/AjaxDataTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/ajaxdata/AjaxDataTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/classatrribute/ClassAttributeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/classatrribute/ClassAttributeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/dynamicid/DynamicIdTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/dynamicid/DynamicIdTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/loaddelay/LoadDelayTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/loaddelay/LoadDelayTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClickPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClickPage.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,15 +68,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.ClickTest">
+}]]></component>
+  <component name="RunManager" selected="Gradle.ClickTest.simpleClick">
     <configuration name="AjaxDataTest.textAppearingAfterTriggeringAjaxRequestButtonClicking" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -205,9 +202,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ClickTest" />
-        <item itemvalue="Gradle.ClickTest.physicalClick" />
         <item itemvalue="Gradle.ClickTest.simpleClick" />
+        <item itemvalue="Gradle.ClickTest.physicalClick" />
+        <item itemvalue="Gradle.ClickTest" />
         <item itemvalue="Gradle.ClickTest.physicalClickOnTheButton" />
         <item itemvalue="Gradle.AjaxDataTest.textAppearingAfterTriggeringAjaxRequestButtonClicking" />
       </list>
@@ -278,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730833235147</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add ClickTest">
+      <created>1731020933307</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731020933307</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +293,18 @@
     <MESSAGE value="Update README" />
     <MESSAGE value="Add AjaxDataTest" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Add ClickTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ClickTest" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClickPage.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
