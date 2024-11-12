@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClickPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClickPage.kt" afterDir="false" />
-    </list>
+    <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -282,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731020933307</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update ClickPage. Add and set Logs.">
+      <created>1731412563400</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731412563400</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -294,7 +297,8 @@
     <MESSAGE value="Add AjaxDataTest" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Add ClickTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ClickTest" />
+    <MESSAGE value="Update ClickPage. Add and set Logs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ClickPage. Add and set Logs." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
