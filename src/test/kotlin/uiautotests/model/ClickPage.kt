@@ -43,7 +43,6 @@ class ClickPage {
     fun isClassNameChanged(expected: Boolean) {
         val className = button.getAttribute("class")
         logger.info("className после клика: $className\nПервичный className: btn btn-primary")
-//        println("className после клика: $className\nПервичный className: btn btn-primary")
         val classNameChanged = className.contains("btn-success")
         assertEquals(expected, classNameChanged)
     }

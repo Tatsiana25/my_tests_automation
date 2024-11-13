@@ -32,7 +32,7 @@ class ClickTest: BaseTest() {
     @Test
     @DisplayName("Физический клик по кнопке осуществляется (изменяется имя класса кнопки)")
     fun physicalClick() {
-        mainPageForUiTests.goClickPage()
+        mainPageForUiTests.goToClickPage()
         clickPage.physicalClick()
         clickPage.isClassNameChanged(true)
     }
@@ -40,7 +40,7 @@ class ClickTest: BaseTest() {
     @Test
     @DisplayName("Обычный клик по кнопке не осуществляется (НЕ изменяется имя класса кнопки)")
     fun simpleClick() {
-        mainPageForUiTests.goClickPage()
+        mainPageForUiTests.goToClickPage()
         clickPage.simpleClick()
         clickPage.isClassNameChanged(false)
     }
