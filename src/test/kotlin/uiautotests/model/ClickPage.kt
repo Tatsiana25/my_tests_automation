@@ -35,7 +35,7 @@ class ClickPage {
                 jsExecutor.executeScript("arguments[0].click();", button)
             }
         } catch (e: Exception) {
-            println("Ошибка при выполнении клика: ${e.message}")
+            logger.info("Ошибка при выполнении клика: ${e.message}")
         }
     }
 
