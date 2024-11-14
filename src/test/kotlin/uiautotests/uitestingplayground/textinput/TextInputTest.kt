@@ -12,6 +12,9 @@ class TextInputTest: BaseTest() {
     private val mainPageForUiTests = MainPageForUiTests()
     private val textInputPage = TextInputPage()
 
+    private var newButtonName = "Новое название кнопки"
+
+
     @BeforeAll
     override fun beforeAll() {
         super.beforeAll()
@@ -27,8 +30,9 @@ class TextInputTest: BaseTest() {
     @DisplayName("Название кнопки меняется после ввода текста")
     fun buttonNameIsChangedAfterTextInput() {
         mainPageForUiTests.goToTextInputPage()
-        textInputPage.setButtonName("Новое название кнопки")
+        textInputPage.checkButtonName(textInputPage.getButtonName(), newButtonName, false)
+        textInputPage.setButtonName(newButtonName)
         textInputPage.clickConfirmButton()
-        textInputPage.checkButtonName()
+        textInputPage.checkButtonName(textInputPage.getButtonName(), newButtonName, true)
     }
 }
