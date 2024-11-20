@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClickPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClickPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/TextInputPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/TextInputPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/textinput/TextInputTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/textinput/TextInputTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,17 +67,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.TextInputTest.buttonNameIsChangedAfterTextInput">
     <configuration name="ClickTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -304,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731506808095</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Refactoring TextInputTest">
+      <created>1731613827826</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731613827826</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -319,6 +324,7 @@
     <MESSAGE value="Update ClickPage. Add and set Logs." />
     <MESSAGE value="Add .gitkeep file in logs directory" />
     <MESSAGE value="Add TextInputTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TextInputTest" />
+    <MESSAGE value="Refactoring TextInputTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring TextInputTest" />
   </component>
 </project>
