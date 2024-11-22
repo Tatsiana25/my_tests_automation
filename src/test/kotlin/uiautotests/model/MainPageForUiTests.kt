@@ -11,6 +11,7 @@ class MainPageForUiTests {
     private val ajaxDataButton = By.xpath("//a[text()='AJAX Data']")
     private val clickButton = By.xpath("//a[text()='Click']")
     private val textInputButton = By.xpath("//a[text()='Text Input']")
+    private val scrollbarsButton = By.xpath("//a[text()='Scrollbars']")
 
     fun goToDynamicIdPage() {
         element(dynamicIdButton).should(visible).click()
@@ -34,5 +35,9 @@ class MainPageForUiTests {
 
     fun goToTextInputPage() {
         element(textInputButton).should(visible).click()
+    }
+
+    fun goToScrollbarsPage() {
+        element(scrollbarsButton).should(visible).click()
     }
 }
