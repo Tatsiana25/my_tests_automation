@@ -18,7 +18,7 @@ class ScrollbarsPage {
     private val scrollableArea: WebElement
     private var currentButtonCoordinates: Map<String, Double>? = null
 
-    private val logger: Logger = LogManager.getLogger(ClickPage::class.java)
+    private val logger: Logger = LogManager.getLogger(ScrollbarsPage::class.java)
 
     init {
         // Инициализация WebDriver и поиск элемента
