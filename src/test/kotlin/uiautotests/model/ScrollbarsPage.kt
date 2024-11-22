@@ -26,7 +26,6 @@ class ScrollbarsPage {
         scrollableArea = Selenide.`$x`("/html/body/section/div/div")
     }
 
-
     private fun getElementCoordinates(element: WebElement): Map<String, Double> {
         val jsExecutor = driver as JavascriptExecutor
 
@@ -68,7 +67,6 @@ class ScrollbarsPage {
             logger.error("One of the coordinates maps is null. Element coordinates: $elementCoordinates, Area coordinates: $areaCoordinates")
             return false
         }
-
         // Проверка всех ключей на null
         if (elementCoordinates["x"] == null || elementCoordinates["y"] == null || elementCoordinates["right"] == null || elementCoordinates["bottom"] == null ||
             areaCoordinates["x"] == null || areaCoordinates["y"] == null || areaCoordinates["right"] == null || areaCoordinates["bottom"] == null
@@ -102,7 +100,7 @@ class ScrollbarsPage {
     }
 
     fun scrollToHidingButton() {
-       element(hidingButton).apply {
+        element(hidingButton).apply {
             scrollIntoView(true)
             logger.info("Скролл к кнопке")
         }
