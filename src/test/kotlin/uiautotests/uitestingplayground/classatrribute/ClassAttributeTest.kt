@@ -24,7 +24,7 @@ class ClassAttributeTest: BaseTest()  {
     }
 
     @Test
-    @DisplayName("Клик по синей кнопке осуществляется + подтверждение асерта")
+    @DisplayName("Клик по синей кнопке осуществляется + подтверждение алерта")
     fun clickBluePrimaryButtonAndAcceptAlertIsPossible() {
         mainPageForUiTests.goToClassAttributePage()
         classAttributePage.clickBluePrimaryButton()
