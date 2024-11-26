@@ -16,7 +16,6 @@ class ScrollbarsPage {
 
     private val hidingButton: WebElement
     private val scrollableArea: WebElement
-    private var currentButtonCoordinates: Map<String, Double>? = null
 
     private val logger: Logger = LogManager.getLogger(ScrollbarsPage::class.java)
 
@@ -48,7 +47,7 @@ class ScrollbarsPage {
             }
             return coordinates
         } else {
-            throw IllegalStateException("Unexpected result type: ${result?.javaClass?.name}")
+            throw IllegalStateException("Неожиданный тип результата: ${result?.javaClass?.name}")
         }
     }
 
@@ -64,14 +63,14 @@ class ScrollbarsPage {
     ): Boolean {
         // Проверка карт на null
         if (elementCoordinates == null || areaCoordinates == null) {
-            logger.error("One of the coordinates maps is null. Element coordinates: $elementCoordinates, Area coordinates: $areaCoordinates")
+            logger.error("Одна из координат карт null. Координаты элемента: $elementCoordinates, Координаты области: $areaCoordinates")
             return false
         }
         // Проверка всех ключей на null
         if (elementCoordinates["x"] == null || elementCoordinates["y"] == null || elementCoordinates["right"] == null || elementCoordinates["bottom"] == null ||
             areaCoordinates["x"] == null || areaCoordinates["y"] == null || areaCoordinates["right"] == null || areaCoordinates["bottom"] == null
         ) {
-            logger.error("One of the coordinate values is null. Element coordinates: $elementCoordinates, Area coordinates: $areaCoordinates")
+            logger.error("Одно из значений координат null. Координаты элемента: $elementCoordinates, Координаты области : $areaCoordinates")
             return false
         }
 
@@ -81,21 +80,21 @@ class ScrollbarsPage {
                 elementCoordinates["bottom"]!! <= areaCoordinates["bottom"]!!
     }
 
-    fun checkButtonDisplayed(beforeScroll: Boolean) {
+    fun checkButtonDisplayed(isDisplayed: Boolean) {
         logger.info("Проверка отображения кнопки HidingButton в области ScrollableArea")
         outputElementCoordinates()
 
         // Получение координат элементов
-        currentButtonCoordinates = getElementCoordinates(hidingButton)
+        val buttonCoordinates = getElementCoordinates(hidingButton)
         val scrollableAreaCoordinates = getElementCoordinates(scrollableArea)
 
-        val isInViewport = isElementWithinArea(currentButtonCoordinates, scrollableAreaCoordinates)
-        if (beforeScroll) {
-            assertFalse(isInViewport, "Кнопка отображается в области до скролла")
-            logger.info("Кнопка не отображается в области до скролла")
+        val isInViewport = isElementWithinArea(buttonCoordinates, scrollableAreaCoordinates)
+        if (isDisplayed) {
+            assertTrue(isInViewport, "Кнопка не отображается в области")
+            logger.info("Кнопка отображается в области")
         } else {
-            assertTrue(isInViewport, "Кнопка не отображается в области после скролла")
-            logger.info("Кнопка отображается в области после скролла")
+            assertFalse(isInViewport, "Кнопка отображается в области")
+            logger.info("Кнопка не отображается в области")
         }
     }
 

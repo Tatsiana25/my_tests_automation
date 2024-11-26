@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ScrollbarsPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ScrollbarsPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/scrollbars/ScrollbarsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/scrollbars/ScrollbarsTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732235620012</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Refactoring logs in ScrollbarsPage">
+      <created>1732276463281</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732276463281</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -348,6 +357,7 @@
     <MESSAGE value="Refactoring log4j2.properties" />
     <MESSAGE value="Add ScrollbarsTest" />
     <MESSAGE value="Refactoring ScrollbarsTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring ScrollbarsTest" />
+    <MESSAGE value="Refactoring logs in ScrollbarsPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring logs in ScrollbarsPage" />
   </component>
 </project>
