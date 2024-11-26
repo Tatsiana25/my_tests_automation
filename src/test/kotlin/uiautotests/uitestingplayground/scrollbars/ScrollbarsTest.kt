@@ -28,8 +28,8 @@ class ScrollbarsTest: BaseTest() {
     @DisplayName("Кнопка видна после скролла")
     fun checkHiddenButton() {
         mainPageForUiTests.goToScrollbarsPage()
-        scrollbarsPage.checkButtonDisplayed(true)
-        scrollbarsPage.scrollToHidingButton()
         scrollbarsPage.checkButtonDisplayed(false)
+        scrollbarsPage.scrollToHidingButton()
+        scrollbarsPage.checkButtonDisplayed(true)
     }
 }
