@@ -6,6 +6,6 @@
 Задачи по ui автотестам взяты с ресурса http://uitestingplayground.com/
 
 ### Структура
-- Тесты (ui) находятся в src/kotlin/uiautotests
-- Описание страниц для этих тестов находится в src/kotlin/uiautotests/model
-- Т.ж. для этих тестов существует конфиг, который находится в src/kotlin/uiautotests/config
+- Тесты (ui) находятся в src/test/kotlin/uiautotests
+- Описание страниц для этих тестов находится в src/test/kotlin/uiautotests/model
+- Т.ж. для этих тестов существует конфиг, который находится в src/test/kotlin/uiautotests/config
