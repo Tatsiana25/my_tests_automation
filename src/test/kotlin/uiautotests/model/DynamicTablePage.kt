@@ -11,13 +11,13 @@ class DynamicTablePage {
     private val chromeCpuLine = By.className("bg-warning")
     private val logger: Logger = LogManager.getLogger(DynamicTablePage::class.java)
 
-    private fun getChromeCpuFromTable(): String? {
+    private fun getChromeCpuFromTable(): String {
         val chromeCpu = element(chromeCpuCell).text
         logger.info("Chrome CPU в таблице:\nChrome CPU: $chromeCpu")
         return "Chrome CPU: $chromeCpu"
     }
 
-    private fun getChromeCpuFromLine(): String? {
+    private fun getChromeCpuFromLine(): String {
         val chromeCpu = element(chromeCpuLine).text
         logger.info("Chrome CPU в поле:\n$chromeCpu")
         return chromeCpu
