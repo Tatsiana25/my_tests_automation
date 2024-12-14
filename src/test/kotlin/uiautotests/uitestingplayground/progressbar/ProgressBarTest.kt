@@ -1,4 +1,4 @@
-package uiautotests.uitestingplayground
+package uiautotests.uitestingplayground.progressbar
 
 import com.codeborne.selenide.Selenide
 import org.junit.jupiter.api.*
