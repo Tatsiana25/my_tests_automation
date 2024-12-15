@@ -15,7 +15,7 @@ import kotlin.properties.Delegates
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @DisplayName("Тесты для страницы Логин")
-class SampleAppTest : BaseTest() {
+class SampleAppTest: BaseTest() {
 
     private val mainPageForUiTests = MainPageForUiTests()
     private val sampleAppPage = SampleAppPage()
