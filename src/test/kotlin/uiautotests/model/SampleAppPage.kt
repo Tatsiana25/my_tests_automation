@@ -9,8 +9,8 @@ import org.openqa.selenium.By
 import kotlin.test.assertEquals
 
 class SampleAppPage {
-    private val userNameField = By.id("f9822f86-5b90-c937-7a50-663aab9a74b6")
-    private val passwordField = By.id("c3d95317-6ebc-eead-03a8-5c82e0405793")
+    private val userNameField = By.name("UserName")
+    private val passwordField = By.name("Password")
     private val loginButton = By.id("login")
     private val textInfo = By.id("loginstatus")
 
@@ -23,7 +23,7 @@ class SampleAppPage {
             //sendKeys(Keys.chord(Keys.CONTROL, "a"))
             //sendKeys(Keys.BACK_SPACE)
             sendKeys(userName)
-            logger.info("Ввели имя пользователя: $userName")
+            logger.info("Ввод имени пользователя: $userName")
         }
     }
 
@@ -32,18 +32,18 @@ class SampleAppPage {
             click()
             clear()
             sendKeys(password)
-            logger.info("Ввели пароль: $password")
+            logger.info("Ввод пароля: $password")
         }
     }
 
-    fun clickLoginButton() {
+    fun clickLoginButton(loginOrLogOut: String) {
         element(loginButton).should(Condition.visible).click()
-        logger.info("Логинимся")
+        logger.info(loginOrLogOut)
     }
 
     fun checkLoginStatus(loginStatusMessage: String) {
         val actualLoginStatus = element(textInfo).should(Condition.visible).text
         assertEquals(loginStatusMessage, actualLoginStatus)
-        logger.info("Статус логина: $actualLoginStatus")
+        logger.info("Статус входа: $actualLoginStatus")
     }
 }
