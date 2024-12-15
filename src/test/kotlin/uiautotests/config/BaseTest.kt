@@ -25,7 +25,7 @@ open class BaseTest {
         }
         Configuration.webdriverLogsEnabled = true
 
-        //Настройки времени ожидания элемента по умолчанию повышены с 4 до 6 сек. для повышения стабильности работы
+        // Настройки времени ожидания элемента по умолчанию повышены с 4 до 6 сек. для повышения стабильности работы
         Configuration.timeout = 6000
 
         Configuration.driverManagerEnabled = true
@@ -35,10 +35,6 @@ open class BaseTest {
         WebDriverManager.chromedriver().browserVersion("130.0.6723.70").setup()
         WebDriverManager.chromedriver().setup()
          */
-        /*
-        Configuration.remote = "https://www.google.com/"
-        Configuration.browserCapabilities.setCapability("prefs", mapOf("intl.accept_languages" to "ru"))
-        */
 
         // Настройка опций для Chrome
         val options = ChromeOptions()

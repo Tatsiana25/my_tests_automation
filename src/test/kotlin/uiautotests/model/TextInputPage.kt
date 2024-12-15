@@ -25,7 +25,7 @@ class TextInputPage {
         }
     }
 
-    fun getButtonName(): String? {
+    fun getButtonName(): String {
         val currentButtonName = element(confirmButton).text
         logger.info("Текущее название кнопки: $currentButtonName")
         return currentButtonName
@@ -36,7 +36,7 @@ class TextInputPage {
         logger.info("Клик по кнопке")
     }
 
-    fun checkButtonName(currentButtonName: String?, newButtonName: String, expectedResult: Boolean) {
+    fun checkButtonName(currentButtonName: String, newButtonName: String, expectedResult: Boolean) {
         logger.info("Сравнение названия кнопки с текстом в поле")
         if (expectedResult) {
             element(confirmButton).shouldBe(visible)

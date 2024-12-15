@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ProgressBarPage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/ProgressBarTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/SampleAppPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/SampleAppPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/sampleapp/SampleAppTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/sampleapp/SampleAppTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +79,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.ProgressBarTest.downloadCanBeStoppedAt75">
-    <configuration name="DynamicTableTest.cellAndLineCpuChromeValuesAreEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="uiautotests.uitestingplayground.progressbar" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.SampleAppTest">
+    <configuration name="ProgressBarTest.downloadCanBeStoppedAt75 (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -93,7 +98,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.dynamictable.DynamicTableTest.cellAndLineCpuChromeValuesAreEqual&quot;" />
+            <option value="&quot;uiautotests.uitestingplayground.progressbar.ProgressBarTest.downloadCanBeStoppedAt75&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -104,7 +109,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ProgressBarTest.downloadCanBeStoppedAt75" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SampleAppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +122,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.ProgressBarTest.downloadCanBeStoppedAt75&quot;" />
+            <option value="&quot;uiautotests.uitestingplayground.sampleapp.SampleAppTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -128,7 +133,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ScrollbarsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SampleAppTest.successfulLoginWithValidUserNameAndPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +146,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.scrollbars.ScrollbarsTest&quot;" />
+            <option value="&quot;uiautotests.uitestingplayground.sampleapp.SampleAppTest.successfulLoginWithValidUserNameAndPassword&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,7 +157,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ScrollbarsTest.checkHiddenButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SampleAppTest.unsuccessfulLoginWithEmptyUserName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -165,7 +170,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.scrollbars.ScrollbarsTest.checkHiddenButton&quot;" />
+            <option value="&quot;uiautotests.uitestingplayground.sampleapp.SampleAppTest.unsuccessfulLoginWithEmptyUserName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,7 +181,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TextInputTest.buttonNameIsChangedAfterTextInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SampleAppTest.unsuccessfulLoginWithInvalidPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -189,7 +194,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.textinput.TextInputTest.buttonNameIsChangedAfterTextInput&quot;" />
+            <option value="&quot;uiautotests.uitestingplayground.sampleapp.SampleAppTest.unsuccessfulLoginWithInvalidPassword&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ProgressBarTest.downloadCanBeStoppedAt75" />
-        <item itemvalue="Gradle.DynamicTableTest.cellAndLineCpuChromeValuesAreEqual" />
-        <item itemvalue="Gradle.ScrollbarsTest.checkHiddenButton" />
-        <item itemvalue="Gradle.ScrollbarsTest" />
-        <item itemvalue="Gradle.TextInputTest.buttonNameIsChangedAfterTextInput" />
+        <item itemvalue="Gradle.SampleAppTest" />
+        <item itemvalue="Gradle.SampleAppTest.unsuccessfulLoginWithEmptyUserName" />
+        <item itemvalue="Gradle.SampleAppTest.unsuccessfulLoginWithInvalidPassword" />
+        <item itemvalue="Gradle.SampleAppTest.successfulLoginWithValidUserNameAndPassword" />
+        <item itemvalue="Gradle.ProgressBarTest.downloadCanBeStoppedAt75 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +371,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733146815424</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add ProgressBarTest">
+      <created>1733614330822</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733614330822</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add SampleAppTest and refactoring">
+      <created>1734136176464</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734136176464</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -390,6 +409,8 @@
     <MESSAGE value="Add DynamicTableTest" />
     <MESSAGE value="Update readme" />
     <MESSAGE value="Refactoring DynamicTablePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring DynamicTablePage" />
+    <MESSAGE value="Add ProgressBarTest" />
+    <MESSAGE value="Add SampleAppTest and refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SampleAppTest and refactoring" />
   </component>
 </project>
