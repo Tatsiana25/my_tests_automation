@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/AlertsPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/utils/DateHelper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/SampleAppPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/SampleAppPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/sampleapp/SampleAppTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/sampleapp/SampleAppTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1734136176464</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Supplement SampleAppTest">
+      <created>1734289718368</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1734289718368</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Supplement SampleAppTest">
+      <created>1734289746897</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1734289746897</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -411,6 +426,7 @@
     <MESSAGE value="Refactoring DynamicTablePage" />
     <MESSAGE value="Add ProgressBarTest" />
     <MESSAGE value="Add SampleAppTest and refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SampleAppTest and refactoring" />
+    <MESSAGE value="Supplement SampleAppTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Supplement SampleAppTest" />
   </component>
 </project>
