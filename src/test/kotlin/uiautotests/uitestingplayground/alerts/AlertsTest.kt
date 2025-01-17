@@ -26,6 +26,15 @@ class AlertsTest: BaseTest() {
     @Test
     @DisplayName("Кнопка подтверждения нажимается после появления алерта")
     fun pressingTheOkButtonAfterTheAlertAppears() {
+        mainPageForUiTests.goToAlertsPage()
+        alertsPage.clickAlertButton()
+        alertsPage.dismiss()
+    }
 
+    @Test
+    @DisplayName("Кнопка подтверждения нажимается после появления конфирма, если сегодня пятница")
+    fun pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday() {
+        mainPageForUiTests.goToAlertsPage()
+        alertsPage.clickConfirmButton()
     }
 }

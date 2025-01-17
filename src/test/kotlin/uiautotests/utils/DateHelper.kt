@@ -2,7 +2,6 @@ package uiautotests.utils
 
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
-import java.time.DayOfWeek
 import java.util.*
 
 class DateHelper {
@@ -41,7 +40,7 @@ class DateHelper {
 
         fun getCurrentDayOfWeekFormatted(formatter: DateTimeFormatter = DateTimeFormatter.ofPattern("EEEE", Locale.ENGLISH)): String {
             val currentDate = LocalDateTime.now()
-            return formatter.format(currentDate).lowercase().replaceFirstChar { it.uppercase() }
+            return formatter.format(currentDate).uppercase()
         }
 
     }
