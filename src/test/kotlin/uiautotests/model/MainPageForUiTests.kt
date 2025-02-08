@@ -15,6 +15,7 @@ class MainPageForUiTests {
     private val dynamicTableButton = By.xpath("//a[text()='Dynamic Table']")
     private val progressBarButton = By.xpath("//a[text()='Progress Bar']")
     private val sampleAppButton = By.xpath("//a[text()='Sample App']")
+    private val alertsButton = By.xpath("//a[text()='Alerts']")
 
     fun goToDynamicIdPage() {
         element(dynamicIdButton).should(visible).click()
@@ -54,5 +55,9 @@ class MainPageForUiTests {
 
     fun goToSampleAppPage() {
         element(sampleAppButton).should(visible).click()
+    }
+
+    fun goToAlertsPage() {
+        element(alertsButton).should(visible).click()
     }
 }
