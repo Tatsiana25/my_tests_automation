@@ -85,7 +85,31 @@
       <recent name="uiautotests.uitestingplayground.progressbar" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AlertsTest.pressingTheOkButtonAfterTheAlertAppears">
+  <component name="RunManager" selected="Gradle.AlertsTest">
+    <configuration name="AlertsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;uiautotests.uitestingplayground.alerts.AlertsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="AlertsTest.pressingTheOkButtonAfterTheAlertAppears" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,6 +124,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;uiautotests.uitestingplayground.alerts.AlertsTest.pressingTheOkButtonAfterTheAlertAppears&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="AlertsTest.pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;uiautotests.uitestingplayground.alerts.AlertsTest.pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,61 +206,13 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SampleAppTest.unsuccessfulLoginWithEmptyUserName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.sampleapp.SampleAppTest.unsuccessfulLoginWithEmptyUserName&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="SampleAppTest.unsuccessfulLoginWithInvalidPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.sampleapp.SampleAppTest.unsuccessfulLoginWithInvalidPassword&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AlertsTest" />
+        <item itemvalue="Gradle.AlertsTest.pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday" />
         <item itemvalue="Gradle.AlertsTest.pressingTheOkButtonAfterTheAlertAppears" />
         <item itemvalue="Gradle.ProgressBarTest.downloadCanBeStoppedAt75 (1)" />
         <item itemvalue="Gradle.SampleAppTest" />
-        <item itemvalue="Gradle.SampleAppTest.unsuccessfulLoginWithEmptyUserName" />
-        <item itemvalue="Gradle.SampleAppTest.unsuccessfulLoginWithInvalidPassword" />
       </list>
     </recent_temporary>
   </component>

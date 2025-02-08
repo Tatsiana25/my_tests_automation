@@ -36,5 +36,7 @@ class AlertsTest: BaseTest() {
     fun pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday() {
         mainPageForUiTests.goToAlertsPage()
         alertsPage.clickConfirmButton()
+        val isFriday = alertsPage.getDayOfWeek()
+        alertsPage.checkDayOfWeekAndClickButton(isFriday)
     }
 }

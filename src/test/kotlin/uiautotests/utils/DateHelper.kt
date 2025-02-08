@@ -40,7 +40,7 @@ class DateHelper {
 
         fun getCurrentDayOfWeekFormatted(formatter: DateTimeFormatter = DateTimeFormatter.ofPattern("EEEE", Locale.ENGLISH)): String {
             val currentDate = LocalDateTime.now()
-            return formatter.format(currentDate).uppercase()
+            return formatter.format(currentDate)
         }
 
     }

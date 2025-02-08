@@ -6,7 +6,8 @@ import com.codeborne.selenide.Selenide.switchTo
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
 import org.openqa.selenium.By
-import uiautotests.utils.DateHelper
+import uiautotests.utils.DateHelper.Companion.getCurrentDayOfWeekFormatted
+import kotlin.test.assertEquals
 
 class AlertsPage {
     private val alertButton = By.id("alertButton")
@@ -33,22 +34,42 @@ class AlertsPage {
     fun accept() {
         val popup = switchTo().alert()
         popup.accept()
-        logger.info("Подтверждение на всплывающем окне")
+        logger.info("Подтверждение")
     }
 
     fun dismiss() {
         val popup = switchTo().alert()
         popup.dismiss()
-        logger.info("Отмена на всплывающем окне")
+        logger.info("Отмена")
     }
 
-    fun getTextFromPopup(): String {
+    private fun getTextFromPopup(): String {
         val popup = switchTo().alert()
         //val popupText = popup.text
         return popup.text
     }
 
-    fun checkDayOfWeek() {
+    fun getDayOfWeek(): Boolean {
+        val popupText = getTextFromPopup()
+        logger.info("Текст на всплывающем окне: $popupText")
 
+        val currentDay = getCurrentDayOfWeekFormatted()
+        logger.info("Сегодня: $currentDay")
+
+        return popupText.contains(currentDay, ignoreCase = true)
     }
+
+    fun checkDayOfWeekAndClickButton(isFriday: Boolean) {
+        if (isFriday) {
+            accept()
+            assertEquals("Yes", getTextFromPopup())
+            logger.info("Нажата кнопка подтверждения, т.к. сегодня Пятница")
+        }
+        else {
+            dismiss()
+            assertEquals("No", getTextFromPopup())
+            logger.info("Нажата кнопка отмены, т.к. сегодня НЕ Пятница")
+        }
+    }
+
 }
