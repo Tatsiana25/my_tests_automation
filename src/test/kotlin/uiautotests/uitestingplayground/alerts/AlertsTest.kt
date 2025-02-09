@@ -41,7 +41,7 @@ class AlertsTest: BaseTest() {
     }
 
     @Test
-    @DisplayName("Ответ недефолтным значением после появления промпта")
+    @DisplayName("Ответ не дефолтным значением после появления промпта")
     fun answerByNonDefaultValueAfterPromptAppears() {
         mainPageForUiTests.goToAlertsPage()
         alertsPage.clickPromptButton()

@@ -101,7 +101,7 @@ class AlertsPage {
             // Перебираем значения в списке и возвращаем оставшееся несовпадающее
             for (nonDefaultValue in promptValues) {
                 if (nonDefaultValue != defaultPromptValue) {
-                    logger.info("Недефолтное значение: $nonDefaultValue")
+                    logger.info("Не дефолтное значение: $nonDefaultValue")
                     return nonDefaultValue
                 }
             }
@@ -129,7 +129,7 @@ class AlertsPage {
         val actualPromptValue = regex.find(popupText)?.groups?.get(1)?.value
 
         assertEquals(nonDefaultValue, actualPromptValue, "Введено неверное значение: $actualPromptValue")
-        logger.info("Введено недефолтное значение: $nonDefaultValue")
+        logger.info("Введено не дефолтное значение: $nonDefaultValue")
     }
 
 }
