@@ -39,4 +39,20 @@ class AlertsTest: BaseTest() {
         val isFriday = alertsPage.getDayOfWeek()
         alertsPage.checkDayOfWeekAndClickButton(isFriday)
     }
+
+    @Test
+    @DisplayName("Ответ не дефолтным значением после появления промпта")
+    fun answerByNonDefaultValueAfterPromptAppears() {
+        mainPageForUiTests.goToAlertsPage()
+        alertsPage.clickPromptButton()
+        val promptValues = alertsPage.getValuesFromPrompt()
+        alertsPage.accept()
+        val defaultPromptValue = alertsPage.getDefaultPromptValue()
+        alertsPage.accept()
+        val nonDefaultValue = alertsPage.getNonDefaultValue(promptValues, defaultPromptValue)
+        alertsPage.clickPromptButton()
+        alertsPage.setNonDefaultValueInPrompt(nonDefaultValue)
+        alertsPage.accept()
+        alertsPage.checkValue(nonDefaultValue)
+    }
 }
