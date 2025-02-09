@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/AlertsPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/AlertsPage.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/alerts/AlertsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/alerts/AlertsTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/utils/DateHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/utils/DateHelper.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <recent name="uiautotests.uitestingplayground.progressbar" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AlertsTest">
+  <component name="RunManager" selected="Gradle.AlertsTest.answerByNonDefaultValueAfterPromptAppears">
     <configuration name="AlertsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,6 +99,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;uiautotests.uitestingplayground.alerts.AlertsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="AlertsTest.answerByNonDefaultValueAfterPromptAppears" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;uiautotests.uitestingplayground.alerts.AlertsTest.answerByNonDefaultValueAfterPromptAppears&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,37 +205,13 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SampleAppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.sampleapp.SampleAppTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AlertsTest.answerByNonDefaultValueAfterPromptAppears" />
         <item itemvalue="Gradle.AlertsTest" />
         <item itemvalue="Gradle.AlertsTest.pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday" />
         <item itemvalue="Gradle.AlertsTest.pressingTheOkButtonAfterTheAlertAppears" />
         <item itemvalue="Gradle.ProgressBarTest.downloadCanBeStoppedAt75 (1)" />
-        <item itemvalue="Gradle.SampleAppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -414,11 +413,17 @@
       <option name="project" value="LOCAL" />
       <updated>1735070331438</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Extend AlertsTest. End of fun pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday() :)">
+      <created>1738975402413</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1738975402413</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Google start page test" />
     <MESSAGE value="Add readme" />
     <MESSAGE value="Add ClassAttributeTest" />
     <MESSAGE value="Edit ClassAttributeTest" />
@@ -443,6 +448,7 @@
     <MESSAGE value="Supplement SampleAppTest" />
     <MESSAGE value="Create AlertsPage and DateHelper" />
     <MESSAGE value="Add AlertsTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add AlertsTest" />
+    <MESSAGE value="Extend AlertsTest. End of fun pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday() :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extend AlertsTest. End of fun pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday() :)" />
   </component>
 </project>
