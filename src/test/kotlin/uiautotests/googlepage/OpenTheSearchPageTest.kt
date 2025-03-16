@@ -18,7 +18,7 @@ class OpenTheSearchPageTest: BaseTest() {
 
     @BeforeEach
     override fun beforeEach() {
-        Selenide.open("https://www.google.com/")
+        Selenide.open("/")
     }
 
     @Test
