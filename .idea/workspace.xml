@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/AlertsPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/AlertsPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/alerts/AlertsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/alerts/AlertsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/googlepage/OpenTheSearchPageTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/googlepage/OpenTheSearchPageTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -84,7 +83,7 @@
       <recent name="uiautotests.uitestingplayground.progressbar" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AlertsTest">
+  <component name="RunManager" selected="Gradle.OpenTheSearchPageTest.startGooglePageIsOpened">
     <configuration name="AlertsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,30 +132,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AlertsTest.pressingTheOkButtonAfterTheAlertAppears" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.alerts.AlertsTest.pressingTheOkButtonAfterTheAlertAppears&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="AlertsTest.pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,7 +156,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ProgressBarTest.downloadCanBeStoppedAt75 (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OpenTheSearchPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,7 +169,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.progressbar.ProgressBarTest.downloadCanBeStoppedAt75&quot;" />
+            <option value="&quot;uiautotests.googlepage.OpenTheSearchPageTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenTheSearchPageTest.startGooglePageIsOpened" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;uiautotests.googlepage.OpenTheSearchPageTest.startGooglePageIsOpened&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -207,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OpenTheSearchPageTest.startGooglePageIsOpened" />
+        <item itemvalue="Gradle.OpenTheSearchPageTest" />
         <item itemvalue="Gradle.AlertsTest" />
         <item itemvalue="Gradle.AlertsTest.answerByNonDefaultValueAfterPromptAppears" />
         <item itemvalue="Gradle.AlertsTest.pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday" />
-        <item itemvalue="Gradle.AlertsTest.pressingTheOkButtonAfterTheAlertAppears" />
-        <item itemvalue="Gradle.ProgressBarTest.downloadCanBeStoppedAt75 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -427,11 +426,17 @@
       <option name="project" value="LOCAL" />
       <updated>1739126432952</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Refactor AlertsTest">
+      <created>1739133765438</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1739133765438</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add ClassAttributeTest" />
     <MESSAGE value="Edit ClassAttributeTest" />
     <MESSAGE value="Update README" />
     <MESSAGE value="Add AjaxDataTest" />
@@ -456,37 +461,7 @@
     <MESSAGE value="Add AlertsTest" />
     <MESSAGE value="Extend AlertsTest. End of fun pressingTheOkButtonAfterTheConfirmAppearsIfTodayIsFriday() :)" />
     <MESSAGE value="Add answerByNonDefaultValueAfterPromptAppears(). AlertsTest is finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add answerByNonDefaultValueAfterPromptAppears(). AlertsTest is finished." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/alerts/AlertsTest.kt</url>
-          <line>45</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/alerts/AlertsTest.kt</url>
-          <line>46</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/alerts/AlertsTest.kt</url>
-          <line>47</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/alerts/AlertsTest.kt</url>
-          <line>36</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/alerts/AlertsTest.kt</url>
-          <line>28</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Refactor AlertsTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor AlertsTest" />
   </component>
 </project>
