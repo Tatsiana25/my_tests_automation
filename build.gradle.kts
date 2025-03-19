@@ -23,6 +23,9 @@ dependencies {
     testImplementation("org.seleniumhq.selenium:selenium-java:4.13.0")
     testImplementation("org.seleniumhq.selenium:selenium-devtools-v102:4.2.2")
     implementation("io.github.bonigarcia:webdrivermanager:5.7.0")
+    testImplementation("io.rest-assured:rest-assured:5.4.0")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.17.2")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.2")
 }
 
 sourceSets {
