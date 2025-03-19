@@ -1,7 +1,7 @@
 ## Описание проекта
 Проект написан на Kotlin с использованием Selenium, Selenide, JUnit.
 
-Для запуска тестов ChromeDriver скачивать не нужно, т.к. настроен WebDriverManager.
+Для запуска ui тестов ChromeDriver скачивать не нужно, т.к. настроен WebDriverManager.
 
 Задачи по ui автотестам взяты с ресурса http://uitestingplayground.com/
 
