@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="Refactor OpenTheSearchPageTest">
+    <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Category.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Category.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Pet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Pet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Tag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Tag.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,7 @@
       <recent name="uiautotests.uitestingplayground.progressbar" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PetTest.createOfNewPetIsSuccessful">
+  <component name="RunManager" selected="Gradle.PetTest">
     <configuration name="AlertsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -210,8 +213,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PetTest.createOfNewPetIsSuccessful" />
         <item itemvalue="Gradle.PetTest" />
+        <item itemvalue="Gradle.PetTest.createOfNewPetIsSuccessful" />
         <item itemvalue="Gradle.OpenTheSearchPageTest.startGooglePageIsOpened" />
         <item itemvalue="Gradle.OpenTheSearchPageTest" />
         <item itemvalue="Gradle.AlertsTest" />
@@ -451,11 +454,17 @@
       <option name="project" value="LOCAL" />
       <updated>1742345672829</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Refactor README">
+      <created>1742346195702</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1742346195702</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add AjaxDataTest" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Add ClickTest" />
     <MESSAGE value="Update ClickPage. Add and set Logs." />
@@ -480,6 +489,7 @@
     <MESSAGE value="Refactor AlertsTest" />
     <MESSAGE value="Refactor OpenTheSearchPageTest" />
     <MESSAGE value="Add api tests using Rest Assured" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add api tests using Rest Assured" />
+    <MESSAGE value="Refactor README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor README" />
   </component>
 </project>

@@ -3,7 +3,7 @@ package apiautotests.petstore.pojo
 import apiautotests.petstore.utils.IdGeneratingHelper
 
 data class Pet (
-    val id: Long = IdGeneratingHelper.generateIdLong(),
+    val id: Long,
     val category: Category,
     val name: String,
     val photoUrls: List<String>,
