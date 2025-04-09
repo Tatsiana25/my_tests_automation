@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="Extend PetTest, refactor pojo">
+    <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/Specs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/Specs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Category.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Category.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Pet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Pet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Tag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Tag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -470,11 +465,17 @@
       <option name="project" value="LOCAL" />
       <updated>1742409615128</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Extend PetTest">
+      <created>1744209418635</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1744209418635</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add ClickTest" />
     <MESSAGE value="Update ClickPage. Add and set Logs." />
     <MESSAGE value="Add .gitkeep file in logs directory" />
     <MESSAGE value="Add TextInputTest" />
@@ -499,7 +500,8 @@
     <MESSAGE value="Add api tests using Rest Assured" />
     <MESSAGE value="Refactor README" />
     <MESSAGE value="Extend PetTest, refactor pojo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extend PetTest, refactor pojo" />
+    <MESSAGE value="Extend PetTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extend PetTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
