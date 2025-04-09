@@ -34,38 +34,55 @@ class PetTest {
             .delete("/pet/${id}")
             .then()
             .statusCode(200)
-        logger.info("\nПитомец удалён\n")
+        logger.info("\n----------\nПитомец удалён\n----------\n")
     }
 
     @Test
     @DisplayName("Питомец с валидными данными успешно создаётся")
     fun createOfNewPetIsSuccessful() {
-        val petReq = Pet(
+        val pet = Pet(
             id = id,
             category = Category(id = id, name = "Dogs"),
             name = "Bobik",
             photoUrls = listOf("src/test/resources/images/big_dog.jpg"),
             tags = listOf(Tag(id = id, name = "Big"))
         )
-        val petRes = RestAssured
+        val createPet = RestAssured
             .given()
             .`when`()
-            .body(petReq)
+            .body(pet)
             .post("/pet")
             .then()
             .statusCode(200)
             .extract().response().`as`(Pet::class.java)
-        logger.info("\nПитомец создан\n")
+        Assertions.assertEquals(pet, createPet)
+        logger.info("\n----------\nПитомец создан\n----------\n")
+
 
         RestAssured
             .given()
             .`when`()
-            .get("/pet/${petReq.id}")
+            .get("/pet/${pet.id}")
             .then()
             .statusCode(200)
-            .body("name", Matchers.equalTo(petReq.name))
-            .body("category.name", Matchers.equalTo(petReq.category.name))
-            .body("tags[0].name", Matchers.equalTo(petReq.tags[0].name))
-        logger.info("\nПитомец вызван\n")
+            .body("name", Matchers.equalTo(pet.name))
+            .body("category.name", Matchers.equalTo(pet.category.name))
+            .body("tags[0].name", Matchers.equalTo(pet.tags[0].name))
+        logger.info("\n----------\nПитомец вызван\n----------\n")
+
+        fun waitUntilResourceExists(resourceId: Long, timeout: Long = 10000, interval: Long = 500) {
+            val startTime = System.currentTimeMillis()
+            while (System.currentTimeMillis() - startTime < timeout) {
+                val statusCode = RestAssured
+                    .given()
+                    .get("/pet/$resourceId")
+                    .statusCode
+                if (statusCode == 200) {
+                    return
+                }
+                Thread.sleep(interval) // Ждем перед следующей проверкой
+            }
+            throw AssertionError("Ресурс с id=$resourceId не стал доступен в течение $timeout мс.")
+        }
     }
 }

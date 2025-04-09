@@ -1,6 +1,7 @@
 package apiautotests.petstore
 
 import io.restassured.RestAssured
+import io.restassured.config.HttpClientConfig
 import io.restassured.builder.RequestSpecBuilder
 import io.restassured.builder.ResponseSpecBuilder
 import io.restassured.filter.log.LogDetail
@@ -17,6 +18,7 @@ object Specs {
             .setBaseUri(baseUri)
             .setBasePath(basePath)
             .setContentType(ContentType.JSON)
+            .addHeader("Cache-Control", "no-cache")
             .log(LogDetail.ALL)
             .build()
     }

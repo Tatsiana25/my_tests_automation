@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
+    <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="Extend PetTest, refactor pojo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/Specs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/Specs.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Category.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Category.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Pet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Pet.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Tag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/pojo/Tag.kt" afterDir="false" />
@@ -70,18 +72,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/my_autotests_kotlin/MyTestAutomation/src/test/resources/images",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/my_autotests_kotlin/MyTestAutomation/src/test/resources/images&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\my_autotests_kotlin\MyTestAutomation\src\test\resources\images" />
@@ -90,7 +92,7 @@
       <recent name="uiautotests.uitestingplayground.progressbar" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PetTest">
+  <component name="RunManager" selected="Gradle.PetTest.createOfNewPetIsSuccessful">
     <configuration name="AlertsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,8 +215,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PetTest" />
         <item itemvalue="Gradle.PetTest.createOfNewPetIsSuccessful" />
+        <item itemvalue="Gradle.PetTest" />
         <item itemvalue="Gradle.OpenTheSearchPageTest.startGooglePageIsOpened" />
         <item itemvalue="Gradle.OpenTheSearchPageTest" />
         <item itemvalue="Gradle.AlertsTest" />
@@ -461,11 +463,17 @@
       <option name="project" value="LOCAL" />
       <updated>1742346195702</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Extend PetTest, refactor pojo">
+      <created>1742409615128</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1742409615128</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactoring" />
     <MESSAGE value="Add ClickTest" />
     <MESSAGE value="Update ClickPage. Add and set Logs." />
     <MESSAGE value="Add .gitkeep file in logs directory" />
@@ -490,6 +498,28 @@
     <MESSAGE value="Refactor OpenTheSearchPageTest" />
     <MESSAGE value="Add api tests using Rest Assured" />
     <MESSAGE value="Refactor README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor README" />
+    <MESSAGE value="Extend PetTest, refactor pojo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extend PetTest, refactor pojo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt</url>
+          <line>58</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt</url>
+          <line>70</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
