@@ -4,6 +4,7 @@
 Для запуска ui тестов ChromeDriver скачивать не нужно, т.к. настроен WebDriverManager.
 
 Задачи по ui автотестам взяты с ресурса http://uitestingplayground.com/
+
 Документация по api взята с ресурса http://petstore.swagger.io/
 
 ### Структура
