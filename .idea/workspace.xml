@@ -5,9 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/BasePage.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/googlepage/OpenTheSearchPageTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/googlepagetests/OpenTheSearchPageTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/AjaxDataPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/AjaxDataPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/AlertsPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/AlertsPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/BasePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/BasePage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClassAttributePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/ClassAttributePage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ClickPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/ClickPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/DynamicIdPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/DynamicIdPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/DynamicTablePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/DynamicTablePage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/GoogleStartPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/google/GoogleStartPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/LoadDelayPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/LoadDelayPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/MainPageForUiTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ProgressBarPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/ProgressBarPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/SampleAppPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/SampleAppPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/ScrollbarsPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/ScrollbarsPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/TextInputPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/uitestingplayground/TextInputPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/ajaxdata/AjaxDataTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/ajaxdata/AjaxDataTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/alerts/AlertsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/alerts/AlertsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/classatrribute/ClassAttributeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/classatrribute/ClassAttributeTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/click/ClickTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/click/ClickTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/dynamicid/DynamicIdTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/dynamicid/DynamicIdTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/dynamictable/DynamicTableTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/dynamictable/DynamicTableTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/loaddelay/LoadDelayTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/loaddelay/LoadDelayTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/progressbar/ProgressBarTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/progressbar/ProgressBarTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/sampleapp/LoginStatusesConstants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/sampleapp/LoginStatusesConstants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/sampleapp/SampleAppTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/sampleapp/SampleAppTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/scrollbars/ScrollbarsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/scrollbars/ScrollbarsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplayground/textinput/TextInputTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/uitestingplaygroundtests/textinput/TextInputTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,10 +110,12 @@
       <recent name="E:\my_autotests_kotlin\MyTestAutomation\src\test\resources\images" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="uiautotests.model.uitestingplayground" />
+      <recent name="uiautotests.model.google" />
       <recent name="uiautotests.uitestingplayground.progressbar" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ClickTest.physicalClick">
+  <component name="RunManager" selected="Gradle.OpenTheSearchPageTest.startGooglePageIsOpened">
     <configuration name="ClickTest.physicalClick" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -211,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OpenTheSearchPageTest.startGooglePageIsOpened" />
         <item itemvalue="Gradle.ClickTest.physicalClick" />
         <item itemvalue="Gradle.ClickTest.simpleClick" />
         <item itemvalue="Gradle.PetTest.createOfNewPetIsSuccessful" />
         <item itemvalue="Gradle.PetTest" />
-        <item itemvalue="Gradle.OpenTheSearchPageTest.startGooglePageIsOpened" />
       </list>
     </recent_temporary>
   </component>
@@ -487,11 +514,17 @@
       <option name="project" value="LOCAL" />
       <updated>1744210888076</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Optimization of MainPageForUiTests">
+      <created>1759846293167</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1759846293167</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add .gitkeep file in logs directory" />
     <MESSAGE value="Add TextInputTest" />
     <MESSAGE value="Refactoring TextInputTest" />
     <MESSAGE value="Refactoring log4j2.properties" />
@@ -516,7 +549,8 @@
     <MESSAGE value="Extend PetTest, refactor pojo" />
     <MESSAGE value="Extend PetTest" />
     <MESSAGE value="Update Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Readme" />
+    <MESSAGE value="Optimization of MainPageForUiTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimization of MainPageForUiTests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
