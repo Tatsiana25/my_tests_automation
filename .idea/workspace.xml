@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/BasePage.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/uiautotests/model/MainPageForUiTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +88,8 @@
       <recent name="uiautotests.uitestingplayground.progressbar" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PetTest.createOfNewPetIsSuccessful">
-    <configuration name="AlertsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ClickTest.physicalClick">
+    <configuration name="ClickTest.physicalClick" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -101,7 +102,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uiautotests.uitestingplayground.alerts.AlertsTest&quot;" />
+            <option value="&quot;uiautotests.uitestingplayground.click.ClickTest.physicalClick&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -112,7 +113,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="OpenTheSearchPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ClickTest.simpleClick" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -125,7 +126,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uiautotests.googlepage.OpenTheSearchPageTest&quot;" />
+            <option value="&quot;uiautotests.uitestingplayground.click.ClickTest.simpleClick&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -210,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ClickTest.physicalClick" />
+        <item itemvalue="Gradle.ClickTest.simpleClick" />
         <item itemvalue="Gradle.PetTest.createOfNewPetIsSuccessful" />
         <item itemvalue="Gradle.PetTest" />
         <item itemvalue="Gradle.OpenTheSearchPageTest.startGooglePageIsOpened" />
-        <item itemvalue="Gradle.OpenTheSearchPageTest" />
-        <item itemvalue="Gradle.AlertsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -472,11 +473,24 @@
       <option name="project" value="LOCAL" />
       <updated>1744209418635</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Update Readme">
+      <created>1744210732860</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1744210732860</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Update Readme">
+      <created>1744210888076</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1744210888076</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update ClickPage. Add and set Logs." />
     <MESSAGE value="Add .gitkeep file in logs directory" />
     <MESSAGE value="Add TextInputTest" />
     <MESSAGE value="Refactoring TextInputTest" />
@@ -501,25 +515,16 @@
     <MESSAGE value="Refactor README" />
     <MESSAGE value="Extend PetTest, refactor pojo" />
     <MESSAGE value="Extend PetTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extend PetTest" />
+    <MESSAGE value="Update Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt</url>
-          <line>58</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt</url>
           <line>70</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/apiautotests/petstore/PetTest.kt</url>
-          <line>30</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

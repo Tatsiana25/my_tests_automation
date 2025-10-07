@@ -4,7 +4,7 @@ import com.codeborne.selenide.Condition.visible
 import com.codeborne.selenide.Selenide.element
 import org.openqa.selenium.By
 
-class MainPageForUiTests {
+class MainPageForUiTests : BasePage() {
     private val dynamicIdButton = By.xpath("//a[text()='Dynamic ID']")
     private val classAttributeButton = By.xpath("//a[text()='Class Attribute']")
     private val loadDelayButton = By.xpath("//a[text()='Class Attribute']")
@@ -17,47 +17,48 @@ class MainPageForUiTests {
     private val sampleAppButton = By.xpath("//a[text()='Sample App']")
     private val alertsButton = By.xpath("//a[text()='Alerts']")
 
+
     fun goToDynamicIdPage() {
-        element(dynamicIdButton).should(visible).click()
+        goToPage(dynamicIdButton)
     }
 
     fun goToClassAttributePage() {
-        element(classAttributeButton).should(visible).click()
+        goToPage(classAttributeButton)
     }
 
     fun goToLoadDelayPage() {
-        element(loadDelayButton).should(visible).click()
+        goToPage(loadDelayButton)
     }
 
     fun goToAjaxDataPage() {
-        element(ajaxDataButton).should(visible).click()
+        goToPage(ajaxDataButton)
     }
 
     fun goToClickPage() {
-        element(clickButton).should(visible).click()
+        goToPage(clickButton)
     }
 
     fun goToTextInputPage() {
-        element(textInputButton).should(visible).click()
+        goToPage(textInputButton)
     }
 
     fun goToScrollbarsPage() {
-        element(scrollbarsButton).should(visible).click()
+        goToPage(scrollbarsButton)
     }
 
     fun goToDynamicTablePage() {
-        element(dynamicTableButton).should(visible).click()
+        goToPage(dynamicTableButton)
     }
 
     fun goToProgressBarPage() {
-        element(progressBarButton).should(visible).click()
+        goToPage(progressBarButton)
     }
 
     fun goToSampleAppPage() {
-        element(sampleAppButton).should(visible).click()
+        goToPage(sampleAppButton)
     }
 
     fun goToAlertsPage() {
-        element(alertsButton).should(visible).click()
+        goToPage(alertsButton)
     }
 }
