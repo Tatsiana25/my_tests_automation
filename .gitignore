@@ -1,4 +1,5 @@
 Вечный GitHub token.txt
+WebDriver/
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
