@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a087d4-d3e3-425e-84f2-f7a6b3db70c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_01_2025_20_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_01_2025_20_35__Changes_.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -472,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1744209418635</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Change gitignore">
+      <created>1781468256753</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1781468256753</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update ClickPage. Add and set Logs." />
     <MESSAGE value="Add .gitkeep file in logs directory" />
     <MESSAGE value="Add TextInputTest" />
     <MESSAGE value="Refactoring TextInputTest" />
@@ -501,7 +506,8 @@
     <MESSAGE value="Refactor README" />
     <MESSAGE value="Extend PetTest, refactor pojo" />
     <MESSAGE value="Extend PetTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extend PetTest" />
+    <MESSAGE value="Change gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
